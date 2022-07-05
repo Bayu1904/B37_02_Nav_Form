@@ -13,6 +13,43 @@ a {
     text-decoration: none;
 }
 
+.btn-cv{
+    margin : 30px 0;
+}
+
+i {
+    height: 50px;
+    color : black;
+    margin: auto;
+    margin-right: 15px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.btn {
+    border: none;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-cv .btn:hover {
+    background-color: white;
+    color: black;
+    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.icons a:hover {
+    
+}
+
+/* CONTENT */
 .container {
     margin: auto;
     margin-top: 50px;
@@ -50,44 +87,15 @@ a {
     border-radius: 6px 6px 0px 0px;
     margin: 0;
 }
+
 .label {
     padding: 15px 0px;
-}
-
-.btn {
-    border: none;
-    font-size: 20px;
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 5px 20px;
-    border-radius: 20px;
-    cursor: pointer;
-}
-
-
-.Group{
-    margin : 30px 0;
-}
-
-.flex {
-    margin : auto;
-    margin-top: 10px;
-}
-
-i {
-    height: 50px;
-    color : black;
-    margin: auto;
-    margin-right: 15px;
-}
-.label {
     text-align: center;
 }
-h2 {
-    margin: 0;
-}
 
+/* END Content */
+
+/* FORM */
 .contentForm {
     width : 350px;
     margin: auto;
@@ -135,6 +143,9 @@ div label {
     text-align: right;
 }
 
+/* End Form */
+
+/* NAV */
 .right h1 {
     margin: 0;
     display: inline;
@@ -147,7 +158,7 @@ div label {
 .right ul li {
     display: inline;
     font-weight: 700;
-    margin-right: 50px;
+    margin-right: 15px;
 }
 
 nav {
@@ -170,7 +181,7 @@ nav {
 .btn-nav {
     padding :5px 20px;
     background-color: #0f1e2e;
-    color : white;
+    color : rgb(255, 255, 255);
     border: none;
     border-radius: 5px;
     font-size: 18px;
@@ -181,29 +192,29 @@ nav {
     color: black;
 }
 
-.right a {
+.right ul a {
     color: #0f1e2e;
     font-weight: bold;
     text-decoration: none;
-}
-
-.right ul a:hover{
-    text-decoration: underline ;
-    font-weight: bold;
-    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
-    background-color: white;
-    padding: 5px 15px;
-    border-radius: 8px;
-}
-
-
-.right h1 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: 600;
-}
-.home {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.7);
     box-shadow: none;
     padding: 5px 15px;
     border-radius: 8px;
 }
+
+.right ul a:hover{
+    text-decoration: underline ;
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.3);
+    background-color: white;
+}
+
+
+.right h1 a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 600;
+    color : black;
+}
+.right .home {
+    text-decoration : underline;
+}
+/* END NAV */
